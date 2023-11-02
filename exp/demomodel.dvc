@@ -1,6 +1,6 @@
 outs:
-- md5: 2f728b76d8e845e1075fa02d4cfb2012.dir
-  size: 1309250
+- md5: 9318c8b5b874925aac152966dda4a171.dir
+  size: 1309355
   nfiles: 5
   hash: md5
   path: demomodel
