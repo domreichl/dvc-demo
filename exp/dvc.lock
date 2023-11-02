@@ -1,0 +1,17 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python demo_exp.py
+    deps:
+    - path: ../data/
+      hash: md5
+      md5: fd9bbcb7664eeaa40d28f04c605726b8.dir
+      size: 54950997
+      nfiles: 9
+    - path: demo_exp.py
+      hash: md5
+      md5: 914d7958d2348252149eb6eceab9e68d
+      size: 1274
+    params:
+      params.yaml:
+        epochs: 1

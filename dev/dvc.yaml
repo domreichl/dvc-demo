@@ -1,0 +1,11 @@
+stages:
+  train:
+    cmd: python demo.py
+    deps:
+    - demo.py
+    - ../data/
+    params:
+    - epochs
+    metrics:
+    - performance.json:
+        cache: false
