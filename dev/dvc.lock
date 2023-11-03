@@ -14,9 +14,9 @@ stages:
       size: 1178
     params:
       params.yaml:
-        epochs: 2
+        epochs: 4
     outs:
     - path: performance.json
       hash: md5
-      md5: ef7240d9ccc00dc80577430d49e034eb
-      size: 137
+      md5: 5d28514d5c078d9519d53f45a1c12f32
+      size: 139
