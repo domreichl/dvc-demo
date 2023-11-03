@@ -14,4 +14,4 @@ stages:
       size: 1224
     params:
       params.yaml:
-        epochs: 1
+        epochs: 4
