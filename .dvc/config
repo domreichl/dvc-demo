@@ -1,0 +1,4 @@
+[core]
+    remote = default_remote
+['remote "default_remote"']
+    url = ../dvc_remote

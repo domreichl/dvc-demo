@@ -1,0 +1,17 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python demolive.py
+    deps:
+    - path: ../data/
+      hash: md5
+      md5: 1b508c2bd9736f6a8b01d9b894cdfc60.dir
+      size: 54950997
+      nfiles: 9
+    - path: demolive.py
+      hash: md5
+      md5: 4d9ee0203875a801c11a3ec0a9bda09c
+      size: 1224
+    params:
+      params.yaml:
+        epochs: 1

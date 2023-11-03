@@ -1,0 +1,17 @@
+stages:
+  train:
+    cmd: python demolive.py
+    deps:
+    - demolive.py
+    - ../data/
+    params:
+    - epochs
+metrics:
+- dvclive/metrics.json
+plots:
+- dvclive/plots/metrics:
+    x: step
+artifacts:
+  demomodel:
+    path: demomodel
+    type: model
